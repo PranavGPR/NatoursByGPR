@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-.feature-box  {
-
-    &__icon {
-        
-    }
-
-    &__text {
-
-    }
-=======
 .feature-box {
 	background-color: rgba($color-white, .8);
 	font-size: 1.8rem;
@@ -30,5 +19,4 @@
 	&:hover {
 		transform: translateY(-1.5rem) scale(1.03);
 	}
->>>>>>> c2c907f00ab2ddfe71aac836c7aa81b14a96a6b2
 }
