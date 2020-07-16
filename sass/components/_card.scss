@@ -73,8 +73,21 @@
 
 	&__heading-span {
 		padding: 1rem 1.5rem;
+		box-decoration-break: clone;
+
 		&--1 {
 			background-image: linear-gradient(to right bottom, rgba($color-secondary-light, .85), rgba($color-secondary-dark, .85));
+		}
+	}
+
+	&__details {
+
+		ul {
+			list-style: none;
+			width: 80%;
+			li {
+
+			}
 		}
 	}
 }
