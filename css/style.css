@@ -375,11 +375,11 @@ body {
           perspective: 150rem;
   -moz-perspective: 150rem;
   position: relative;
-  height: 50rem;
+  height: 52rem;
 }
 
 .card__side {
-  height: 50rem;
+  height: 52rem;
   -webkit-transition: all .8s ease;
   transition: all .8s ease;
   position: absolute;
@@ -462,9 +462,37 @@ body {
   background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.85), rgba(255, 119, 48, 0.85));
 }
 
+.card__details {
+  padding: 3rem;
+}
+
 .card__details ul {
   list-style: none;
   width: 80%;
+  margin: 0 auto;
+}
+
+.card__details ul li {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+.card__details ul li:not(:last-child) {
+  border-bottom: 1px solid #eee;
+}
+
+.card__cta {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.card__price-value {
+  font-size: 6rem;
+  font-weight: 100;
 }
 
 .header {
