@@ -771,6 +771,17 @@ body {
   opacity: 1;
 }
 
+.footer {
+  background-color: #333;
+  padding: 10rem 0;
+  font-size: 1.4rem;
+}
+
+.footer__logo {
+  width: 15rem;
+  height: auto;
+}
+
 .header {
   position: relative;
   height: 95vh;
