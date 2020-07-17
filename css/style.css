@@ -232,9 +232,8 @@ body {
   position: relative;
   height: 50rem; }
   .card__side {
-    background-color: orangered;
     height: 50rem;
-    transition: all .8s;
+    transition: all .8s ease;
     position: absolute;
     top: 0;
     left: 0;
