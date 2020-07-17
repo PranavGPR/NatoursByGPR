@@ -822,6 +822,9 @@ body {
           column-gap: 4rem;
   -webkit-column-rule: 1px solid #eee;
           column-rule: 1px solid #eee;
+  -webkit-hyphens: auto;
+      -ms-hyphens: auto;
+          hyphens: auto;
 }
 
 .footer {
