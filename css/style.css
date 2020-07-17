@@ -847,6 +847,7 @@ body {
   -webkit-box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
           box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
   text-align: center;
+  cursor: pointer;
 }
 
 .navigation__background {
@@ -943,13 +944,23 @@ body {
   content: '';
   position: absolute;
   left: 0;
+  -webkit-transition: all .2s;
+  transition: all .2s;
 }
 
 .navigation__icon::before {
-  top: -1rem;
+  top: -.8rem;
 }
 
 .navigation__icon::after {
+  top: .8rem;
+}
+
+.navigation__button::hover .navigation__icon::before {
+  top: -1rem;
+}
+
+.navigation__button::hover .navigation__icon::after {
   top: 1rem;
 }
 
