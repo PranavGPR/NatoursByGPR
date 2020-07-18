@@ -19,15 +19,9 @@ body {
         letter-spacing: 3.5rem;
         animation: moveInLeft 1s ease-out;
 
-        
-        @include respond(tab-port) {
+        @include respond(phone) {
             letter-spacing: 2rem;
             font-size: 5.5rem;
-        }
-
-        @include respond(phone) {
-            letter-spacing: 1rem;
-            font-size: 5rem;
         }
     }
     
@@ -40,7 +34,7 @@ body {
     }
 
     @include respond(phone) {
-        letter-spacing: .5rem;
+        letter-spacing: 1rem;
     }
 }
 
