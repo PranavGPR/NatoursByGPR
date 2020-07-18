@@ -1167,6 +1167,12 @@ body {
   }
 }
 
+@media (max-width: 56.25em) {
+  .row {
+    max-width: 50rem;
+  }
+}
+
 .row::after {
   content: '';
   display: table;
